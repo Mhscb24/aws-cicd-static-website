@@ -188,20 +188,38 @@ Docker containerization, AWS pipeline configuration, ECR image publication, ECS/
 
 These screenshots document my progress building and troubleshooting this AWS CI/CD project.
 
-### Screenshot 1
-![Project screenshot 1](docs/images/Screenshot%202026-10-01%20141908.png)
+### GitHub Repository Setup
 
-### Screenshot 2
-![Project screenshot 2](docs/images/Screenshot%202026-10-01%20175255.png)
+Configured the public `aws-cicd-static-website` repository with a README to document the project and track code changes.
 
-### Screenshot 3
-![Project screenshot 3](docs/images/Screenshot%202026-10-02%20161117.png)
+![GitHub repository setup](docs/images/Screenshot%202026-10-01%20141908.png)
 
-### Screenshot 4
-![Project screenshot 4](docs/images/Screenshot%202026-10-02%20162205.png)
+### CI/CD Pipeline Troubleshooting
 
-### Screenshot 5
-![Project screenshot 5](docs/images/Screenshot%202026-10-02%20164558.png)
+AWS CodePipeline shows a successful source stage followed by a failed Docker build-and-push action, documenting an issue investigated during project development.
 
-### Screenshot 6
-![Project screenshot 6](docs/images/Screenshot%202026-10-04%20211704.png)
+![AWS CodePipeline showing a failed build action](docs/images/Screenshot%202026-10-01%20175255.png)
+
+### Amazon ECS Cluster Configuration
+
+Configured `SimpleDockerCluster` with the Fargate-only option to run containers without managing EC2 servers.
+
+![Amazon ECS cluster configuration with Fargate selected](docs/images/Screenshot%202026-10-02%20161117.png)
+
+### Container Image Selection from Amazon ECR
+
+Selected the container image tagged `latest` from a private Amazon ECR repository for the ECS task configuration.
+
+![Amazon ECR container image with the latest tag selected](docs/images/Screenshot%202026-10-02%20162205.png)
+
+### Successful Amazon ECS Service Deployment
+
+Successfully deployed `SimpleDockerService` to `SimpleDockerCluster`. The cluster overview confirms an active cluster, one active service, and one running task with no pending tasks.
+
+![Amazon ECS showing a successful service deployment and one running task](docs/images/Screenshot%202026-10-02%20164558.png)
+
+### Portfolio Website Verification
+
+Verified that the deployed portfolio website loaded in the browser and displayed the updated release text: `v3.3 — GitHub connection test`.
+
+![Deployed portfolio website displaying release v3.3](docs/images/Screenshot%202026-10-04%20211704.png)
