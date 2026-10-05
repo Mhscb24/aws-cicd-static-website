@@ -184,3 +184,24 @@ Running tasks and other retained AWS resources can incur charges. Review the res
 ## Skills demonstrated
 
 Docker containerization, AWS pipeline configuration, ECR image publication, ECS/Fargate deployment, IAM role diagnosis, artifact handling, and verification of deployed content.
+## Project Screenshots
+
+These screenshots document my progress building and troubleshooting this AWS CI/CD project.
+
+### Screenshot 1
+![Project screenshot 1](docs/images/Screenshot%202026-10-01%20141908.png)
+
+### Screenshot 2
+![Project screenshot 2](docs/images/Screenshot%202026-10-01%20175255.png)
+
+### Screenshot 3
+![Project screenshot 3](docs/images/Screenshot%202026-10-02%20161117.png)
+
+### Screenshot 4
+![Project screenshot 4](docs/images/Screenshot%202026-10-02%20162205.png)
+
+### Screenshot 5
+![Project screenshot 5](docs/images/Screenshot%202026-10-02%20164558.png)
+
+### Screenshot 6
+![Project screenshot 6](docs/images/Screenshot%202026-10-04%20211704.png)
