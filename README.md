@@ -12,7 +12,7 @@ This project connects source changes on GitHub's `main` branch to a pipeline tha
 
 The live website was verified displaying **release v3.3**. A prior commit-triggered execution completed after IAM corrections and retries. Preserve the matching v3.3 execution details to document the final automatic run separately.
 
-![Live website displaying v3.3](docs/images/05-live-v3-3.png)
+![Live website displaying v3.3](docs/images/Screenshot%202026-10-04%20211704.png)
 
 ## Architecture
 
@@ -155,7 +155,7 @@ Use your own connection ARN when adapting this example.
 - The v3.3 test commit message was `Verify automatic deployment v3.3`.
 - Capture the matching successful v3.3 execution and trigger as the final evidence of an uninterrupted automatic run.
 
-![ECS service with one running task](docs/images/04-ecs-service.png)
+![ECS service with one running task](docs/images/Screenshot%202026-10-02%20164558.png)
 
 *Earlier ECS setup evidence. The v3.3 website screenshot above records the later deployed content.*
 
